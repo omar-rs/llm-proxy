@@ -1,0 +1,17 @@
+{
+  "model": "gpt-4o",
+  "messages": [
+    {
+      "role": "developer",
+      "content": "You are a helpful assistant that provides concise answers."
+    },
+    {
+      "role": "user",
+      "content": "Tell me a haiku."
+    }
+  ],
+  "stream": true,
+  "stream_options": {
+    "include_usage": true
+  }
+}
